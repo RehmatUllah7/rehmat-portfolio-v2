@@ -29,7 +29,7 @@ I lead projects, collaborate with teams, and turn ideas into polished, user-frie
 Continuously learning, I stay updated with the latest trends to deliver meaningful, impactful digital solutions.
           </p>
 
-          {/* Components side by side - hide on small screens */}
+          {/* Components sid by side - hide on small screens */}
           <div className="mt-6 flex flex-col lg:flex-row gap-6 items-center lg:items-start max-w-[384px] lg:max-w-none sm:flex">
             <FindMe />
             <BestStack />
