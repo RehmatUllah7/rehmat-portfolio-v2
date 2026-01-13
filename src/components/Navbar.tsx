@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import logo from "../assets/2.png";
+import logo from "../assets/navbar.png";
 
 const Navbar = () => {
   const [activeSection, setActiveSection] = useState("home");

@@ -1,6 +1,6 @@
-import sygma from "../assets/90.png";
-import zain from "../assets/78.png";
-import stvoo from "../assets/logo.png";
+import sygma from "../assets/navbar.png";
+import zain from "../assets/navbar.png";
+import stvoo from "../assets/navbar.png";
 import { Github, ExternalLink } from "lucide-react";
 
 const projects = [

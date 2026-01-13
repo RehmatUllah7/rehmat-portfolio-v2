@@ -1,4 +1,4 @@
-import heroImage from "../assets/ui.png";
+import heroImage from "../assets/h.png";
 import TypingText from "../components/TypingText";
 import BestStack from "./BestStack";
 import FindMe from "./FindMe";
@@ -11,7 +11,7 @@ const Hero = () => {
         {/* Left Content */}
         <div className="text-center lg:text-left">
           <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold mb-4">
-            Hi, I'm <span className="text-[#7ed957]">Rehmat Ullah</span>
+            Hi, I'm <span className="text-[#00FFFF]">Rehmat Ullah</span>
           </h1>
 
           {/* Animated Line */}
@@ -42,8 +42,8 @@ const Hero = () => {
         <div className="flex justify-center">
           <img
             src={heroImage}
-            alt="Umer Farooq"
-            className="w-72 sm:w-80 lg:w-116 h-auto rounded-2xl shadow-lg"
+            alt="Rehmat Ullah Hero"
+            className="w-72 sm:w-80 lg:w-116 h-140 rounded-2xl shadow-lg"
           />
         </div>
 
