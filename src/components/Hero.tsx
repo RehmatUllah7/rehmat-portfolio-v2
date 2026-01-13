@@ -14,7 +14,7 @@ const Hero = () => {
             Hi, I'm <span className="text-[#00FFFF]">Rehmat Ullah</span>
           </h1>
 
-          {/* Animated Line */}
+          {/* Animatd Line */}
           <h2 className="text-2xl sm:text-3xl lg:text-4xl text-white mb-4 flex justify-center lg:justify-start gap-2">
             <span>a</span>
             <TypingText
