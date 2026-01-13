@@ -1,8 +1,7 @@
-import heroImage from "../assets/hero.png";
 import TypingText from "../components/TypingText";
 import BestStack from "./BestStack";
 import FindMe from "./FindMe";
-
+import heroImage from "../assets/heroimage.png";
 const Hero = () => {
   return (
     <section id="home" className="relative min-h-screen flex items-center">
