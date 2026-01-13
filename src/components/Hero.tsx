@@ -11,7 +11,7 @@ const Hero = () => {
         {/* Left Content */}
         <div className="text-center lg:text-left">
           <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold mb-4">
-            Hi, I'm <span className="text-[#7ed957]">Umer Farooq</span>
+            Hi, I'm <span className="text-[#7ed957]">Rehmat Ullah</span>
           </h1>
 
           {/* Animated Line */}
