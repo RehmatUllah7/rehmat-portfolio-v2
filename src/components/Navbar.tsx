@@ -29,8 +29,8 @@ const Navbar = () => {
   const linkClass = (id: string)  =>
     `relative transition-all duration-300 ${
       activeSection === id
-        ? "text-[#7ed957]"
-        : "text-gray-200 hover:text-[#7ed957]"
+        ? "text-[#00FFFF]"
+        : "text-gray-200 hover:text-[#00FFFF]"
     }`;
 
   return (

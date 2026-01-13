@@ -2,94 +2,96 @@ import { ArrowRight } from "lucide-react";
 
 const features = [
   {
-    title: "Backend & API Development",
+    title: "Frontend Development with React",
     description:
-      "Architecting secure, high-performance RESTful APIs and backend services with ASP.NET Core & C#. I focus on scalable architecture, clean code, and seamless database integration using Entity Framework Core and SQL/PostgreSQL.",
+      "Building dynamic, responsive, and scalable web applications with React and Tailwind CSS. I translate designs into high-quality, maintainable code while following modern best practices in component architecture and state management.",
     icon: (
       <div className="relative w-12 h-12">
-        {/* Outer ring with gear-like effect */}
-        <div className="absolute inset-0 border-2 border-[#7ed957] rounded-full transition-all duration-500 group-hover:border-white group-hover:rotate-180">
-          {/* Gear teeth */}
-          <span className="absolute top-0 left-1/2 -translate-x-1/2 w-1 h-3 bg-[#7ed957] transition-all duration-300 group-hover:bg-white group-hover:h-4" />
-          <span className="absolute bottom-0 left-1/2 -translate-x-1/2 w-1 h-3 bg-[#7ed957] transition-all duration-300 group-hover:bg-white group-hover:h-4" />
-          <span className="absolute left-0 top-1/2 -translate-y-1/2 w-3 h-1 bg-[#7ed957] transition-all duration-300 group-hover:bg-white group-hover:w-4" />
-          <span className="absolute right-0 top-1/2 -translate-y-1/2 w-3 h-1 bg-[#7ed957] transition-all duration-300 group-hover:bg-white group-hover:w-4" />
+        {/* React atom symbol */}
+        <div className="absolute inset-0 border-2 border-[#00FFFF] rounded-full transition-all duration-500 group-hover:border-white group-hover:rotate-180">
+          {/* Electron orbit */}
+          <div className="absolute inset-2 border border-[#00FFFF] rounded-full opacity-50 transition-all duration-700 group-hover:border-white group-hover:opacity-100 group-hover:scale-90"></div>
+          
+          {/* Electron dots */}
+          <span className="absolute top-1 left-1/2 -translate-x-1/2 w-2 h-2 bg-[#00FFFF] rounded-full transition-all duration-300 group-hover:bg-white group-hover:w-3 group-hover:h-3 group-hover:top-0" />
+          <span className="absolute bottom-1 left-1/2 -translate-x-1/2 w-2 h-2 bg-[#00FFFF] rounded-full transition-all duration-300 group-hover:bg-white group-hover:w-3 group-hover:h-3 group-hover:bottom-0" />
+          <span className="absolute left-1 top-1/2 -translate-y-1/2 w-2 h-2 bg-[#00FFFF] rounded-full transition-all duration-300 group-hover:bg-white group-hover:w-3 group-hover:h-3 group-hover:left-0" />
+          <span className="absolute right-1 top-1/2 -translate-y-1/2 w-2 h-2 bg-[#00FFFF] rounded-full transition-all duration-300 group-hover:bg-white group-hover:w-3 group-hover:h-3 group-hover:right-0" />
         </div>
         
-        {/* Inner circle with connection dots */}
-        <div className="absolute inset-2 border border-[#7ed957] rounded-full flex items-center justify-center transition-all duration-500 group-hover:border-white group-hover:scale-75">
-          <div className="flex space-x-1">
-            <span className="w-1 h-1 bg-[#7ed957] rounded-full transition-all duration-300 group-hover:bg-white group-hover:w-2 group-hover:h-2" />
-            <span className="w-1 h-1 bg-[#7ed957] rounded-full transition-all duration-300 group-hover:bg-white group-hover:w-2 group-hover:h-2" />
-            <span className="w-1 h-1 bg-[#7ed957] rounded-full transition-all duration-300 group-hover:bg-white group-hover:w-2 group-hover:h-2" />
-          </div>
+        {/* Center nucleus */}
+        <div className="absolute inset-4 bg-[#00FFFF] rounded-full transition-all duration-500 group-hover:bg-white group-hover:scale-75"></div>
+      </div>
+    ),
+  },
+  {
+    title: "UI/UX Design & Prototyping",
+    description: "Designing user-centered, visually appealing interfaces using Figma, Adobe XD, and Canva. I focus on creating intuitive workflows, responsive layouts, and interactive prototypes that enhance user experience and engagement.",
+    icon: (
+      <div className="relative w-12 h-12">
+        {/* Pen tip */}
+        <div className="absolute top-2 left-1/2 -translate-x-1/2 w-3 h-3 rotate-45 bg-[#00FFFF] transition-all duration-300 group-hover:bg-white group-hover:scale-125 group-hover:top-1"></div>
+        
+        {/* Pen body */}
+        <div className="absolute top-5 left-1/2 -translate-x-1/2 w-2 h-6 bg-linear-to-b from-[#00FFFF] to-transparent transition-all duration-300 group-hover:from-white group-hover:h-7"></div>
+        
+        {/* Prototype frame */}
+        <div className="absolute inset-0 border-2 border-[#00FFFF] rounded-lg transition-all duration-500 group-hover:border-white group-hover:scale-110">
+          {/* Screen elements */}
+          <div className="absolute top-2 left-2 right-2 h-1 bg-[#00FFFF] rounded transition-all duration-300 group-hover:bg-white"></div>
+          <div className="absolute top-5 left-2 w-3/4 h-1 bg-[#00FFFF]/50 rounded transition-all duration-300 group-hover:bg-white group-hover:w-4/5"></div>
+          <div className="absolute top-7 left-2 w-2/3 h-1 bg-[#00FFFF]/40 rounded transition-all duration-300 group-hover:bg-white group-hover:w-3/4"></div>
+          
+          {/* Interaction dot */}
+          <span className="absolute bottom-2 right-2 w-2 h-2 bg-[#00FFFF] rounded-full transition-all duration-500 group-hover:bg-white group-hover:w-3 group-hover:h-3 group-hover:bottom-1 group-hover:right-1"></span>
         </div>
       </div>
     ),
   },
   {
-    title: "Cloud & DevOps Engineering",
-    description: "Building reliable, cloud-native applications by implementing CI/CD pipelines (GitHub Actions, Azure DevOps), containerization with Docker, and deploying to platforms like Heroku and AWS. I ensure smooth, automated delivery from code to production.",
+    title: "Project Management & Collaboration",
+    description:
+      "Leading projects from concept to delivery using Agile and Scrum methodologies. I coordinate teams, set milestones, manage deadlines, and ensure projects are delivered efficiently without compromising quality.",
     icon: (
       <div className="relative w-12 h-12">
-        {/* Cloud outline */}
-        <div className="absolute inset-0 border-2 border-[#7ed957] rounded-full transition-all duration-500 group-hover:border-white group-hover:scale-110">
-          {/* Cloud curves */}
-          <div className="absolute -top-2 left-1/2 -translate-x-1/2 w-8 h-6 border-t-2 border-x-2 border-[#7ed957] rounded-t-full transition-all duration-300 group-hover:border-white group-hover:h-8" />
+        {/* Calendar/Board base */}
+        <div className="absolute inset-0 border-2 border-[#00FFFF] rounded-lg transition-all duration-500 group-hover:border-white group-hover:rotate-3">
+          {/* Timeline/Grid lines */}
+          <div className="absolute inset-2 flex flex-col justify-between">
+            <div className="flex justify-between">
+              <span className="w-1 h-1 bg-[#00FFFF] rounded-full transition-all duration-300 group-hover:bg-white group-hover:w-2 group-hover:h-2"></span>
+              <span className="w-1 h-1 bg-[#00FFFF] rounded-full transition-all duration-300 group-hover:bg-white group-hover:w-2 group-hover:h-2"></span>
+              <span className="w-1 h-1 bg-[#00FFFF] rounded-full transition-all duration-300 group-hover:bg-white group-hover:w-2 group-hover:h-2"></span>
+            </div>
+            <div className="flex justify-between">
+              <span className="w-1 h-1 bg-[#00FFFF] rounded-full transition-all duration-300 group-hover:bg-white group-hover:w-2 group-hover:h-2"></span>
+              <span className="w-1 h-1 bg-[#00FFFF] rounded-full transition-all duration-300 group-hover:bg-white group-hover:w-2 group-hover:h-2"></span>
+              <span className="w-1 h-1 bg-[#00FFFF] rounded-full transition-all duration-300 group-hover:bg-white group-hover:w-2 group-hover:h-2"></span>
+            </div>
+          </div>
         </div>
         
-        {/* Arrow pointing upward with animation */}
-        <div className="absolute inset-0 flex items-center justify-center">
-          <div className="relative w-4 h-4">
-            {/* Arrow stem */}
-            <span className="absolute left-1/2 -translate-x-1/2 bottom-0 w-0.5 h-3 bg-[#7ed957] transition-all duration-300 group-hover:h-4 group-hover:bg-white group-hover:w-1" />
+        {/* Progress arrow */}
+        <div className="absolute -bottom-1 right-0">
+          <div className="relative w-6 h-4">
+            {/* Arrow body */}
+            <span className="absolute top-1/2 -translate-y-1/2 left-0 right-2 h-0.5 bg-[#00FFFF] transition-all duration-300 group-hover:bg-white group-hover:right-1"></span>
             
             {/* Arrow head */}
-            <span className="absolute top-0 left-1/2 -translate-x-1/2 -translate-y-1/2 w-0 h-0 
-              border-l-[3px] border-l-transparent
-              border-r-[3px] border-r-transparent
-              border-b-[6px] border-b-[#7ed957]
+            <span className="absolute right-0 top-1/2 -translate-y-1/2 w-0 h-0 
+              border-l-4 border-l-[#00FFFF]
+              border-t-[3px] border-t-transparent
+              border-b-[3px] border-b-transparent
               transition-all duration-300 
-              group-hover:border-l-4 group-hover:border-r-4 group-hover:border-b-8 group-hover:border-b-white
-              group-hover:translate-y-1" />
-            
-            {/* Circling dots */}
-            <span className="absolute -top-1 -right-1 w-1 h-1 bg-[#7ed957] rounded-full opacity-0 transition-all duration-500 group-hover:opacity-100 group-hover:bg-white group-hover:w-2 group-hover:h-2 group-hover:-top-2 group-hover:-right-2" />
-            <span className="absolute -bottom-1 -left-1 w-1 h-1 bg-[#7ed957] rounded-full opacity-0 transition-all duration-500 group-hover:opacity-100 group-hover:bg-white group-hover:w-2 group-hover:h-2 group-hover:-bottom-2 group-hover:-left-2" />
-          </div>
-        </div>
-      </div>
-    ),
-  },
-  {
-    title: "Database Design & Optimization",
-    description:
-      "Structuring efficient data layers with SQL Server & PostgreSQL. From schema design and EF Core management to performance tuning with indexing and bulk operations, I ensure data integrity and speed for high-traffic applications.",
-    icon: (
-      <div className="relative w-12 h-12">
-        {/* Database cylinder outline */}
-        <div className="absolute inset-0 border-2 border-[#7ed957] rounded-lg transition-all duration-500 group-hover:border-white">
-          {/* Top ellipse */}
-          <div className="absolute -top-1 left-1/2 -translate-x-1/2 w-10 h-2 border-2 border-[#7ed957] rounded-full border-b-0 transition-all duration-300 group-hover:border-white group-hover:w-11 group-hover:h-3" />
-          
-          {/* Data layers inside */}
-          <div className="absolute inset-2 flex flex-col justify-between">
-            <span className="w-full h-0.5 bg-[#7ed957] transition-all duration-300 group-hover:bg-white group-hover:h-1" />
-            <span className="w-full h-0.5 bg-[#7ed957] transition-all duration-300 group-hover:bg-white group-hover:h-1" />
-            <span className="w-full h-0.5 bg-[#7ed957] transition-all duration-300 group-hover:bg-white group-hover:h-1" />
+              group-hover:border-l-white group-hover:border-l-[5px]
+              group-hover:border-t-4 group-hover:border-b-4"></span>
           </div>
         </div>
         
-        {/* Graph bars with growth animation */}
-        <div className="absolute -bottom-2 left-1/2 -translate-x-1/2 flex space-x-1">
-          <span className="w-2 h-2 bg-[#7ed957] transition-all duration-300 group-hover:bg-white group-hover:h-4 group-hover:w-3 delay-75" />
-          <span className="w-2 h-3 bg-[#7ed957] transition-all duration-300 group-hover:bg-white group-hover:h-5 group-hover:w-3 delay-100" />
-          <span className="w-2 h-4 bg-[#7ed957] transition-all duration-300 group-hover:bg-white group-hover:h-6 group-hover:w-3 delay-150" />
-        </div>
-        
-        {/* Connection nodes */}
-        <span className="absolute -top-1 left-2 w-1 h-1 bg-[#7ed957] rounded-full opacity-0 transition-all duration-500 group-hover:opacity-100 group-hover:bg-white group-hover:w-2 group-hover:h-2" />
-        <span className="absolute -top-1 right-2 w-1 h-1 bg-[#7ed957] rounded-full opacity-0 transition-all duration-500 group-hover:opacity-100 group-hover:bg-white group-hover:w-2 group-hover:h-2" />
+        {/* Team connection dots */}
+        <span className="absolute -top-1 -left-1 w-1 h-1 bg-[#00FFFF] rounded-full opacity-0 transition-all duration-500 group-hover:opacity-100 group-hover:bg-white group-hover:w-2 group-hover:h-2"></span>
+        <span className="absolute -top-1 -right-1 w-1 h-1 bg-[#00FFFF] rounded-full opacity-0 transition-all duration-500 group-hover:opacity-100 group-hover:bg-white group-hover:w-2 group-hover:h-2"></span>
+        <span className="absolute -bottom-1 left-1/2 -translate-x-1/2 w-1 h-1 bg-[#00FFFF] rounded-full opacity-0 transition-all duration-500 group-hover:opacity-100 group-hover:bg-white group-hover:w-2 group-hover:h-2"></span>
       </div>
     ),
   },
@@ -101,7 +103,7 @@ const Feature = () => {
       <div className="px-6 lg:px-6 lg:pl-40">
         
         <div className="mb-14 max-w-2xl">
-          <p className="text-[#7ed957] uppercase tracking-widest text-sm mb-3">
+          <p className="text-[#00FFFF] uppercase tracking-widest text-sm mb-3">
             Features
           </p>
           <h2 className="text-4xl lg:text-5xl font-bold text-gray-200">
@@ -114,10 +116,10 @@ const Feature = () => {
             <div
               key={index}
               className="group relative rounded-2xl bg-linear-to-br from-[#1c1f23] to-[#111315] p-8 shadow-lg transition-all duration-300 hover:scale-[1.03] max-w-sm mx-auto lg:mx-0
-                       hover:shadow-2xl hover:shadow-[#7ed957]/20 hover:border hover:border-[#7ed957]/30
+                       hover:shadow-2xl hover:shadow-[#00FFFF]/20 hover:border hover:border-[#00FFFF]/30
                        hover:bg-linear-to-br hover:from-[#1c1f23] hover:via-[#1a2226] hover:to-[#111315]
-                       before:absolute before:inset-0 before:rounded-2xl before:bg-linear-to-br before:from-[#7ed957]/0 before:to-[#7ed957]/0 before:transition-all before:duration-500
-                       hover:before:from-[#7ed957]/5 hover:before:to-[#7ed957]/10
+                       before:absolute before:inset-0 before:rounded-2xl before:bg-linear-to-br before:from-[#00FFFF]/0 before:to-[#00FFFF]/0 before:transition-all before:duration-500
+                       hover:before:from-[#00FFFF]/5 hover:before:to-[#00FFFF]/10
                        transform-gpu cursor-pointer"
             >
               
@@ -126,7 +128,7 @@ const Feature = () => {
                 {item.icon}
               </div>
 
-              <h3 className="text-2xl font-semibold mb-4 transition-all duration-300 group-hover:text-[#7ed957] group-hover:translate-x-1">
+              <h3 className="text-2xl font-semibold mb-4 transition-all duration-300 group-hover:text-[#00FFFF] group-hover:translate-x-1">
                 {item.title}
               </h3>
 
@@ -135,8 +137,8 @@ const Feature = () => {
               </p>
 
               <div className="relative">
-                <ArrowRight className="text-[#7ed957] w-6 h-6 transition-all duration-300 group-hover:translate-x-3 group-hover:scale-125 group-hover:text-white" />
-                <div className="absolute -left-4 top-1/2 -translate-y-1/2 w-8 h-0.5 bg-[#7ed957]/0 transition-all duration-300 group-hover:bg-[#7ed957] group-hover:w-6" />
+                <ArrowRight className="text-[#00FFFF] w-6 h-6 transition-all duration-300 group-hover:translate-x-3 group-hover:scale-125 group-hover:text-white" />
+                <div className="absolute -left-4 top-1/2 -translate-y-1/2 w-8 h-0.5 bg-[#00FFFF]/0 transition-all duration-300 group-hover:bg-[#00FFFF] group-hover:w-6" />
               </div>
             </div>
           ))}

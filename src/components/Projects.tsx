@@ -38,7 +38,7 @@ const Projects = () => {
 
         {/* Heading — left aligned like Feature */}
         <div className="mb-14 max-w-2xl">
-          <p className="text-[#7ed957] uppercase tracking-widest text-sm mb-3">
+          <p className="text-[#00FFFF] uppercase tracking-widest text-sm mb-3">
             Check these out on my github
           </p>
           <h2 className="text-4xl lg:text-5xl font-bold text-gray-200">
@@ -71,7 +71,7 @@ const Projects = () => {
               {/* Content */}
               <div className="px-8 pb-10">
                 <div className="flex items-center justify-between mb-4 hover:scale-110 transition-transform duration-300">
-                  <h3 className="text-[#7ed957] text-lg font-semibold tracking-wide">
+                  <h3 className="text-[#00FFFF] text-lg font-semibold tracking-wide">
                     {project.title}
                   </h3>
 
@@ -82,7 +82,7 @@ const Projects = () => {
     target="_blank"
     rel="noopener noreferrer"
     className="w-9 h-9 rounded-full bg-black flex items-center justify-center
-               hover:bg-[#7ed957] transition cursor-pointer group"
+               hover:bg-[#00FFFF] transition cursor-pointer group"
   >
     <Github className="w-4 h-4 text-white group-hover:scale-110 transition" />
   </a>
@@ -93,7 +93,7 @@ const Projects = () => {
     target="_blank"
     rel="noopener noreferrer"
     className="w-9 h-9 rounded-full bg-black flex items-center justify-center
-               hover:bg-[#7ed957] transition cursor-pointer group"
+               hover:bg-[#00FFFF] transition cursor-pointer group"
   >
     <ExternalLink className="w-4 h-4 text-white group-hover:scale-110 transition" />
   </a>

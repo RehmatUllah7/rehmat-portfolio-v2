@@ -48,7 +48,7 @@ const TypingText: React.FC<TypingTextProps> = ({
   return (
     <span className="text-white font-semibold">
       {displayText}
-      <span className="text-[#7ed957] animate-pulse font-bold">|</span>
+      <span className="text-[#00FFFF] animate-pulse font-bold">|</span>
     </span>
   );
 };

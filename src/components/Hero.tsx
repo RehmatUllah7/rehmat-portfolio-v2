@@ -1,4 +1,4 @@
-import heroImage from "../assets/h.png";
+import heroImage from "../assets/hero.png";
 import TypingText from "../components/TypingText";
 import BestStack from "./BestStack";
 import FindMe from "./FindMe";
@@ -18,17 +18,15 @@ const Hero = () => {
           <h2 className="text-2xl sm:text-3xl lg:text-4xl text-white mb-4 flex justify-center lg:justify-start gap-2">
             <span>a</span>
             <TypingText
-              texts={["ASP.NET Core Developer", "Backend & Cloud Engineer"]}
+              texts={["Frontend Developer", "UI/UX Designer", "Project Manager"]}
             />
           </h2>
 
           <p className="text-gray-200 py-3 font-sans text-sm sm:text-base lg:text-xl leading-relaxed tracking-wide max-w-full lg:max-w-3xl text-justify">
-            I’m a passionate Software Engineer with hands-on experience in building
-            scalable and secure web applications using ASP.NET Core and C#.
-            I specialize in developing RESTful APIs, designing efficient database schemas,
-            and optimizing backend performance for real-world production systems.
-            My experience includes working with SQL Server, PostgreSQL, Supabase,
-            and deploying applications using Docker, CI/CD pipelines, and cloud platforms.
+            I create intuitive, visually appealing digital experiences using React, Tailwind CSS, Figma, and Adobe XD.
+With a strong eye for design and clean, responsive code, I bridge creativity and technology.
+I lead projects, collaborate with teams, and turn ideas into polished, user-friendly products.
+Continuously learning, I stay updated with the latest trends to deliver meaningful, impactful digital solutions.
           </p>
 
           {/* Components side by side - hide on small screens */}
@@ -43,7 +41,7 @@ const Hero = () => {
           <img
             src={heroImage}
             alt="Rehmat Ullah Hero"
-            className="w-72 sm:w-80 lg:w-116 h-140 rounded-2xl shadow-lg"
+            className="w-72 sm:w-80 lg:w-116 h-auto rounded-2xl shadow-lg"
           />
         </div>
 

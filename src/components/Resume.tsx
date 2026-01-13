@@ -15,7 +15,7 @@ const Resume = () => {
 
         {/* Heading */}
         <div className="mb-16 max-w-2xl">
-          <p className="text-[#7ed957] uppercase tracking-widest text-sm mb-3">
+          <p className="text-[#00FFFF] uppercase tracking-widest text-sm mb-3">
             4+ Years of Work Experience
           </p>
           <h2 className="text-4xl lg:text-5xl font-bold text-gray-200">
@@ -33,7 +33,7 @@ const Resume = () => {
               className={`rounded-lg py-6 flex items-center justify-center cursor-pointer
                 ${
                   activeTab === "education"
-                    ? "border border-[#7ed957]"
+                    ? "border border-[#00FFFF]"
                     : "hover:bg-[#1c1f23]"
                 }`}
             >
@@ -54,7 +54,7 @@ const Resume = () => {
               className={`rounded-lg py-6 flex items-center justify-center cursor-pointer
                 ${
                   activeTab === "skills"
-                    ? "border border-[#7ed957]"
+                    ? "border border-[#00FFFF]"
                     : "hover:bg-[#1c1f23]"
                 }`}
             >
@@ -75,7 +75,7 @@ const Resume = () => {
   className={`rounded-lg py-6 flex items-center justify-center cursor-pointer
     ${
       activeTab === "experience"
-        ? "border border-[#7ed957]"
+        ? "border border-[#00FFFF]"
         : "hover:bg-[#1c1f23]"
     }`}
 >

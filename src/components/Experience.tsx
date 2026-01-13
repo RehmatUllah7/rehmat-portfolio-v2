@@ -12,13 +12,13 @@ const Experience = () => {
         <div className="absolute left-4 top-8 w-16 h-1 bg-gray-700"></div>
 
         {/* Dot at intersection */}
-        <span className="absolute left-4.5 top-8 w-5 h-5 rounded-full bg-gray-500 border-2 border-gray-700 -translate-x-1/2 -translate-y-1/2 transition-all duration-300 group-hover:bg-[#7ed957] z-10"></span>
+        <span className="absolute left-4.5 top-8 w-5 h-5 rounded-full bg-gray-500 border-2 border-gray-700 -translate-x-1/2 -translate-y-1/2 transition-all duration-300 group-hover:bg-[#00FFFF] z-10"></span>
 
         {/* Carrd */}
         <div className="ml-20 bg-[#1c1f23] rounded-md p-8 shadow-lg transition-all duration-300 group-hover:bg-[#101214] group-hover:shadow-2xl w-full">
 
           {/* Badge */}
-          <span className="absolute top-6 right-6 bg-black text-[#7ed957] text-sm px-4 py-2 rounded-lg transition-colors duration-300 group-hover:bg-gray-800 group-hover:text-[#7ed957]">
+          <span className="absolute top-6 right-6 bg-black text-[#00FFFF] text-sm px-4 py-2 rounded-lg transition-colors duration-300 group-hover:bg-gray-800 group-hover:text-[#00FFFF]">
 Jul 2025 – Present
           </span>
 
@@ -44,13 +44,13 @@ Optimized large datasets using bulk operations and raw SQL, and improved data ac
         <div className="absolute left-4 top-8 w-16 h-1 bg-gray-700"></div>
 
         {/* Dot at intersection */}
-        <span className="absolute left-4.5 top-8 w-5 h-5 rounded-full bg-gray-500 border-2 border-gray-700 -translate-x-1/2 -translate-y-1/2 transition-all duration-300 group-hover:bg-[#7ed957] z-10"></span>
+        <span className="absolute left-4.5 top-8 w-5 h-5 rounded-full bg-gray-500 border-2 border-gray-700 -translate-x-1/2 -translate-y-1/2 transition-all duration-300 group-hover:bg-[#00FFFF] z-10"></span>
 
         {/* Card */}
         <div className="ml-20 bg-[#1c1f23] rounded-md p-8 shadow-lg transition-all duration-300 group-hover:bg-[#101214] group-hover:shadow-2xl w-full">
 
           {/* Badge */}
-          <span className="absolute top-6 right-6 bg-black text-[#7ed957] text-sm px-4 py-2 rounded-lg transition-colors duration-300 group-hover:bg-gray-800 group-hover:text-[#7ed957]">
+          <span className="absolute top-6 right-6 bg-black text-[#00FFFF] text-sm px-4 py-2 rounded-lg transition-colors duration-300 group-hover:bg-gray-800 group-hover:text-[#00FFFF]">
 Jun 2025 – Present
           </span>
 
@@ -75,13 +75,13 @@ Managed Supabase (PostgreSQL) integration and deployed applications on Heroku, h
         <div className="absolute left-4 top-8 w-16 h-1 bg-gray-700"></div>
 
         {/* Dot at intersection */}
-        <span className="absolute left-4.5 top-8 w-5 h-5 rounded-full bg-gray-500 border-2 border-gray-700 -translate-x-1/2 -translate-y-1/2 transition-all duration-300 group-hover:bg-[#7ed957] z-10"></span>
+        <span className="absolute left-4.5 top-8 w-5 h-5 rounded-full bg-gray-500 border-2 border-gray-700 -translate-x-1/2 -translate-y-1/2 transition-all duration-300 group-hover:bg-[#00FFFF] z-10"></span>
 
         {/* Card */}
         <div className="ml-20 bg-[#1c1f23] rounded-md p-8 shadow-lg transition-all duration-300 group-hover:bg-[#101214] group-hover:shadow-2xl w-full">
 
           {/* Badge */}
-          <span className="absolute top-6 right-6 bg-black text-[#7ed957] text-sm px-4 py-2 rounded-lg transition-colors duration-300 group-hover:bg-gray-800 group-hover:text-[#7ed957]">
+          <span className="absolute top-6 right-6 bg-black text-[#00FFFF] text-sm px-4 py-2 rounded-lg transition-colors duration-300 group-hover:bg-gray-800 group-hover:text-[#00FFFF]">
 Feb 2025 – May 2025
           </span>
 
@@ -107,13 +107,13 @@ Implemented secure file storage solutions using AWS S3 and MongoDB GridFS, and m
         <div className="absolute left-4 top-8 w-16 h-1 bg-gray-700"></div>
 
         {/* Dot at intersection */}
-        <span className="absolute left-4.5 top-8 w-5 h-5 rounded-full bg-gray-500 border-2 border-gray-700 -translate-x-1/2 -translate-y-1/2 transition-all duration-300 group-hover:bg-[#7ed957] z-10"></span>
+        <span className="absolute left-4.5 top-8 w-5 h-5 rounded-full bg-gray-500 border-2 border-gray-700 -translate-x-1/2 -translate-y-1/2 transition-all duration-300 group-hover:bg-[#00FFFF] z-10"></span>
 
         {/* Card */}
         <div className="ml-20 bg-[#1c1f23] rounded-md p-8 shadow-lg transition-all duration-300 group-hover:bg-[#101214] group-hover:shadow-2xl w-full">
 
           {/* Badge */}
-          <span className="absolute top-6 right-6 bg-black text-[#7ed957] text-sm px-4 py-2 rounded-lg transition-colors duration-300 group-hover:bg-gray-800 group-hover:text-[#7ed957]">
+          <span className="absolute top-6 right-6 bg-black text-[#00FFFF] text-sm px-4 py-2 rounded-lg transition-colors duration-300 group-hover:bg-gray-800 group-hover:text-[#00FFFF]">
 Project Experience          </span>
 
           <h3 className="text-2xl font-semibold text-gray mb-2 transition-colors duration-300 group-hover:text-white">

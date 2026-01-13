@@ -35,7 +35,7 @@ const ProfessionalSkills = () => {
             <h3 className="text-lg font-medium text-gray-200">
               {skill.name}
             </h3>
-            <span className="text-sm font-semibold text-[#7ed957]">
+            <span className="text-sm font-semibold text-[#00FFFF]">
               {skill.level}%
             </span>
           </div>
@@ -43,7 +43,7 @@ const ProfessionalSkills = () => {
           {/* Progress Bar */}
           <div className="w-full h-2 bg-[#111315] rounded-full overflow-hidden">
             <div
-              className="h-full bg-[#7ed957] rounded-full transition-all duration-1000 ease-out"
+              className="h-full bg-[#00FFFF] rounded-full transition-all duration-1000 ease-out"
               style={{
                 width: animate ? `${skill.level}%` : "0%",
               }}
