@@ -23,7 +23,7 @@ const Hero = () => {
           </h2>
 
           <p className="text-gray-200 py-3 font-sans text-sm sm:text-base lg:text-xl leading-relaxed tracking-wide max-w-full lg:max-w-3xl text-justify">
-            I create intuitive, visually appealing digital experiences using React, Tailwind CSS, Figma, and Adobe XD.
+            I create intuitive, visually appealing digital experiences using React, Tailwind CSS, Figma, and Canva.
 With a strong eye for design and clean, responsive code, I bridge creativity and technology.
 I lead projects, collaborate with teams, and turn ideas into polished, user-friendly products.
 Continuously learning, I stay updated with the latest trends to deliver meaningful, impactful digital solutions.

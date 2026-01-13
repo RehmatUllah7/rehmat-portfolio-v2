@@ -16,7 +16,7 @@ const Resume = () => {
         {/* Heading */}
         <div className="mb-16 max-w-2xl">
           <p className="text-[#00FFFF] uppercase tracking-widest text-sm mb-3">
-            4+ Years of Work Experience
+             Work Experience
           </p>
           <h2 className="text-4xl lg:text-5xl font-bold text-gray-200">
             My Resume

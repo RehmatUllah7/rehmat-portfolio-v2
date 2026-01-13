@@ -8,12 +8,12 @@ type Skill = {
 
 // 2️⃣ Skills array
 const skills: Skill[] = [
-  { name: "ASP .NET Core / C#", level: 80 },
-  { name: "REST API", level: 85 },
-  { name: "Entity Framework & LINQ", level: 80 },
-  { name: "SQL Server", level: 75 },
-  { name: "Docker", level: 70 },
-  { name: "SignalR", level: 70 },
+  { name: "React.js", level: 80 },
+  { name: "Tailwind CSS", level: 85 },
+  { name: "Figma & Canva", level: 80 },
+  { name: "Git & Collaboration", level: 75 },
+  { name: "Project Management", level: 70 },
+  { name: "Design Systems & Branding", level: 70 },
 ];
 
 const ProfessionalSkills = () => {
