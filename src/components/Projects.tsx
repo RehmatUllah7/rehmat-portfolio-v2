@@ -12,14 +12,14 @@ const projects = [
     github: "https://github.com/RehmatUllah7/easykaam",
     live: "https://easykaam-pink.vercel.app/",
     description:
-      "SafeMum is a backend-driven system built to manage maternal health-related data using secure and scalable APIs. The project focuses on clean architecture, secure data handling, and reliable backend operations for healthcare-oriented use cases."  },
+      "EasyKaam is a full-stack service marketplace designed to simplify on-demand home services. Users can browse services, book professionals, and manage requests in real time. The platform is built with a scalable architecture, emphasizing performance, usability, and clean UI/UX for both customers and service providers."  },
   {
     title: "HarfZaad",
     image: zain,
     github: "https://github.com/RehmatUllah7/Harfzaaar",
     live: "https://harfzaad.vercel.app/",
     description:
-      "EasyKaam is a backend-driven platform designed to manage jobs, workers, and task updates efficiently. It provides secure REST APIs for work assignment, progress tracking, and data synchronization, built with scalability and performance in mind.",
+      "HarfZaad is a content-driven web application designed to support writers and readers by offering a structured platform for publishing and discovering literary content. The project emphasizes clean UI/UX, performance, and scalability. It secured 2nd Position at the Career Expo, COMSATS University, for its technical execution and concept originality.",
   },
   {
     title: "LinkMyLeads",
@@ -27,15 +27,15 @@ const projects = [
     github: "https://github.com/RehmatUllah7/LinkMyLeads",
     live: "https://link-my-leads.vercel.app/",
     description:
-      "StoVoo is a food service & delivery app bringing people and food together in an engaging, fun & exciting way.",
+      "Link My Leads is a real estate solutions provider that helps customers discover and connect with properties through a static, easy-to-navigate website. The platform focuses on showcasing listings effectively while providing a seamless bridge between clients and agents.",
   },
    {
-    title: "EasyKaam & Harfzaad Admin",
+    title: "Admin Panels",
     image: admin,
     github: undefined,
     live: undefined,
     description:
-      "StoVoo is a food service & delivery app bringing people and food together in an engaging, fun & exciting way.",
+      "The admin panels of EasyKaam and HarfZaad provide streamlined dashboards for platform management. EasyKaam’s admin handles professionals, service categories, job tracking, and payments, while HarfZaad’s admin manages content, users, and engagement metrics. Both panels are designed for efficiency, usability, and smooth platform operation.",
   },
    {
     title: "Funny Websites",
@@ -43,7 +43,7 @@ const projects = [
     github: "https://github.com/RehmatUllah7/Fuuny-Day-Predictor",
     live: "https://fuuny-day-predictor.vercel.app/",
     description:
-      "StoVoo is a food service & delivery app bringing people and food together in an engaging, fun & exciting way.",
+      "I have created multiple fun, interactive mini websites for Instagram, featuring humorous coding experiments. These include a Funny Day Predictor, Cricket Selector, AI Search Bot, Zodiac Insight, etc. All designed to entertain while showcasing creative coding and playful web interactions.",
   },
 ];
 
