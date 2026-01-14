@@ -1,29 +1,47 @@
-import sygma from "../assets/navbar.png";
-import zain from "../assets/navbar.png";
-import stvoo from "../assets/navbar.png";
+import sygma from "../assets/78.png";
+import zain from "../assets/h.png";
+import stvoo from "../assets/l.png";
+import admin from "../assets/admin.png"
+import fun from "../assets/fun.png"
 import { Github, ExternalLink } from "lucide-react";
 
 const projects = [
   {
-    title: "SafeMum",
+    title: "EasyKaam Web",
     image: sygma,
-    github: "https://github.com/UmerMalik298/SafeMum",
-    live: "https://safemum-production.up.railway.app/swagger",
+    github: "https://github.com/RehmatUllah7/easykaam",
+    live: "https://easykaam-pink.vercel.app/",
     description:
       "SafeMum is a backend-driven system built to manage maternal health-related data using secure and scalable APIs. The project focuses on clean architecture, secure data handling, and reliable backend operations for healthcare-oriented use cases."  },
   {
-    title: "EasyKaam",
+    title: "HarfZaad",
     image: zain,
-    github: "https://github.com/UmerMalik298/EasyKaam",
-    live: "https://easykaam-production.up.railway.app/swagger/index.html",
+    github: "https://github.com/RehmatUllah7/Harfzaaar",
+    live: "https://harfzaad.vercel.app/",
     description:
       "EasyKaam is a backend-driven platform designed to manage jobs, workers, and task updates efficiently. It provides secure REST APIs for work assignment, progress tracking, and data synchronization, built with scalability and performance in mind.",
   },
   {
-    title: "STOVOO",
+    title: "LinkMyLeads",
     image: stvoo,
-    github: "https://github.com/yourname/sygma",
-    live: "https://sygma.com",
+    github: "https://github.com/RehmatUllah7/LinkMyLeads",
+    live: "https://link-my-leads.vercel.app/",
+    description:
+      "StoVoo is a food service & delivery app bringing people and food together in an engaging, fun & exciting way.",
+  },
+   {
+    title: "EasyKaam & Harfzaad Admin",
+    image: admin,
+    github: undefined,
+    live: undefined,
+    description:
+      "StoVoo is a food service & delivery app bringing people and food together in an engaging, fun & exciting way.",
+  },
+   {
+    title: "Funny Websites",
+    image: fun,
+    github: "https://github.com/RehmatUllah7/Fuuny-Day-Predictor",
+    live: "https://fuuny-day-predictor.vercel.app/",
     description:
       "StoVoo is a food service & delivery app bringing people and food together in an engaging, fun & exciting way.",
   },
@@ -82,7 +100,7 @@ const Projects = () => {
     target="_blank"
     rel="noopener noreferrer"
     className="w-9 h-9 rounded-full bg-black flex items-center justify-center
-               hover:bg-[#00FFFF] transition cursor-pointer group"
+               hover:bg-[#16d1ce] transition cursor-pointer group"
   >
     <Github className="w-4 h-4 text-white group-hover:scale-110 transition" />
   </a>
@@ -93,7 +111,7 @@ const Projects = () => {
     target="_blank"
     rel="noopener noreferrer"
     className="w-9 h-9 rounded-full bg-black flex items-center justify-center
-               hover:bg-[#00FFFF] transition cursor-pointer group"
+               hover:bg-[#16d1ce] transition cursor-pointer group"
   >
     <ExternalLink className="w-4 h-4 text-white group-hover:scale-110 transition" />
   </a>
